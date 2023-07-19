@@ -1,0 +1,109 @@
+@media (max-width: 575.98px) {
+    .hero-bg img {
+        height: 100%;
+        width: auto;
+    }
+    .address-menu {
+        display: none;
+    }
+    a.menu-link {
+        font-size: 30px;
+    }
+
+    .service-item {
+        width: 100% !important;
+    }
+
+    .about-text-bg {
+        display: none;
+    }
+
+    .left-bg {
+        display: none
+    }
+
+    .right-bg {
+        display: none;
+    }
+
+    .toggle-btn::before {
+        display: none;
+    }
+    .hero-title h1 {
+        font-size: 40px;
+    }
+    .links::before {
+        display: none;
+    }
+    .news-text p {
+        display: none;
+    }
+    .hero-title {
+        padding: 0 30px;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    .address-menu {
+        display: none;
+    }
+    .links::before {
+        display: none;
+    }
+    .left-bg {
+        display: none
+    }
+
+    .right-bg {
+        display: none;
+    }
+    .toggle-btn::before {
+        display: none;
+    }
+    .hero-title h1 {
+        font-size: 40px;
+    }
+    .news-text p {
+        display: none;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  
+
+    .left-bg {
+        display: none
+    }
+
+    .right-bg {
+        display: none;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .left-bg {
+        display: none
+    }
+
+    .right-bg {
+        display: none;
+    }
+
+}
+
+/* // Large devices (desktops, less than 1200px) RETINA */
+@media (min-width: 1200px) and (max-width: 4000px) {
+    .work-item {
+        height: 350px;
+    }
+
+    .mt-60-lg {
+        margin-top: 60px !important;
+    }
+
+
+}
