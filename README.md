@@ -12,7 +12,7 @@ You will find an intricate tapestry of code files that give life to our website,
 
 ## 🔮 Experience the Magic
 
-Witness our creativity in action. Check out our live website at [mizegerd.agency](google.com) and embark on the stellar journey we've designed for our visitors.
+Witness our creativity in action. Check out our live website at [mizegerd.agency](https://mizegerd-tech.github.io/Website/) and embark on the stellar journey we've designed for our visitors.
 
 ## 💡 Getting Started
 
