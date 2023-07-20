@@ -1,8 +1,4 @@
 /*-----------------------------------------------------------------
-Project             : Akar – Creative Digital & Marketing Agency OnePage Template
-Version             : 1.0
-Author              : Cingunt-Themes
-=====================================================================
 
 [Table of contents]
 
@@ -30,8 +26,15 @@ Author              : Cingunt-Themes
 /* Google Font */
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+@import url('https://charpa.ir/fonts/WebFonts/css/fontiran.css');
 
 /*preloader */
+body {
+    font-family: 'IRANSans';
+    font-weight: normal;
+    font-style: normal;
+}
+
 #preloader {
     width: 100%;
     height: 100%;
@@ -74,7 +77,7 @@ a:hover {
     width: 100%;
     position: fixed;
     z-index: 9999;
-    background: #000;
+    background: #fff;
     bottom: 0;
     right: 0;
 }
@@ -111,7 +114,7 @@ a:hover {
     margin-top: -50px;
     transform: translate(-50%, -0%);
     left: 50%;
-    background: #f95343;
+    background: #C78FFF;
 }
 
 .color-white {
@@ -193,23 +196,21 @@ a:hover {
 }
 
 h1 {
-    /* font-family: 'Playfair Display', serif; */
     font-size: 50px;
     font-weight: 900;
     color: #fff;
 }
 
 h2 {
-    /* font-family: 'Playfair Display', serif; */
     font-size: 24px;
     font-weight: 900;
-    color: #1e272c;
+    color: #fff;
 }
 
 h3 {
     font-size: 16px;
-    letter-spacing: 1px;
-    color: #1e272c;
+    
+    color: #fff;
     font-weight: 700;
 
 }
@@ -227,7 +228,6 @@ h1 span {
 
 .title h2 {
     font-size: 50px;
-    font-family: 'Playfair Display', sans-serif;
     font-weight: 800;
     color: #fff;
 
@@ -239,8 +239,7 @@ h1 span {
 .title h3 {
     margin: 0;
     font-weight: 500;
-    letter-spacing: 0;
-    color: #f95343;
+    color: #C78FFF;
     font-size: 18px;
 
 }
@@ -255,13 +254,14 @@ h1 span {
     content: '';
     position: absolute;
     top: 15px;
-    left: -25px;
+    right: 0;
     width: 120px;
     height: 120px;
     z-index: 1;
     background: url('../img/text-bg-light.svg') repeat;
     background-size: 10px;
     opacity: .1;
+    z-index: -1;
     transform: rotate(45deg);
 }
 
@@ -273,7 +273,7 @@ h1 span {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     line-height: 1.8;
 }
@@ -281,7 +281,7 @@ p {
 p.sub-title {
     mix-blend-mode: color-dodge;
     font-size: 14px;
-    letter-spacing: 1px;
+    
     font-weight: 500;
     line-height: 25px;
     color: #7b8b8e;
@@ -290,7 +290,6 @@ p.sub-title {
 body {
     overflow-x: hidden;
     background-color: #1a1a1a;
-    font-family: 'Muli', sans-serif;
 }
 
 .centered {
@@ -342,7 +341,7 @@ body {
     height: calc(100% + 200px);
     background: #222222;
     opacity: 1;
-    left: 0;
+    right: 0;
     top: 0;
     margin-top: -100px;
     display: block;
@@ -351,8 +350,8 @@ body {
 
 
 .line-col {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(255, 255, 255);
+    transform: translate3d(255, 255, 255);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -389,6 +388,7 @@ body {
 
 
 
+
 /* ==========================================================================
                             [02] Hero
    ========================================================================== */
@@ -399,14 +399,12 @@ body {
 .hero-title h1 {
     color: #fff;
     margin: 0 !important;
-    letter-spacing: 3px;
     font-size: 60px;
     font-weight: 700;
-    font-family: 'Playfair Display', sans-serif;
 }
 
 .hero-title h3 {
-    color: #f95343;
+    color: #C78FFF;
 }
 
 .hero-bg {
@@ -470,24 +468,24 @@ body {
 .btn-main {
     margin: 0 auto;
     text-align: center;
-    letter-spacing: 3px;
     position: relative;
-    border: 1px solid #f95343;
+    border: 1px solid #C78FFF;
     text-transform: uppercase;
     font-size: 12px;
     padding: 15px 34px;
     color: rgba(255, 255, 255, 1);
     transition: all ease .5s;
+    letter-spacing: 1px;
 }
 
 .btn-main:hover {
-    color: #f95343;
+    color: #C78FFF;
 }
 
 .btn-main:before {
     content: "";
     position: absolute;
-    border-bottom: 1px solid #f95343;
+    border-bottom: 1px solid #C78FFF;
     width: 30px;
     transform: translate(-50%, -50%);
     height: 1px;
@@ -516,7 +514,7 @@ body {
     width: 50px;
     height: 50px;
     right: 3%;
-    border: 1px solid #f95343;
+    border: 1px solid #C78FFF;
     z-index: 1000 !important;
 }
 
@@ -530,13 +528,13 @@ body {
 }
 
 .toggle-btn::before {
-    content: 'DIGITAL CREATIVE AGENCY';
+    content: 'DIGITAL AGENCY';
     position: absolute;
     width: 180px;
     font-size: 10px;
-    letter-spacing: 2px;
     color: #fff;
-    right: 60px;
+    letter-spacing: 2px;
+    right: 10px;
 }
 
 
@@ -587,7 +585,7 @@ body {
     content: '';
     height: 100%;
     width: 1px;
-    background: #f95343;
+    background: #C78FFF;
 }
 
 
@@ -615,7 +613,6 @@ ul {
 }
 
 a.menu-link {
-    font-family: 'Playfair Display', serif;
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -650,14 +647,12 @@ a.menu-link.active {
 }
 
 .address-menu h3 {
-    font-family: 'Playfair Display', serif;
     font-size: 30px;
-    color: #f95343;
+    color: #C78FFF;
     font-weight: 600;
 }
 
 .address-menu h4 {
-    font-family: 'Playfair Display', serif;
     color: #fff;
     font-size: 30px;
     opacity: .5;
@@ -686,7 +681,7 @@ a.menu-link.active {
 }
 
 .social ul li:hover a {
-    color: #f95343;
+    color: #C78FFF;
 }
 
 .social ul {
@@ -717,7 +712,7 @@ a.menu-link.active {
 }
 
 .email-link:hover a {
-    color: #f95343;
+    color: #C78FFF;
 }
 
 /* ==========================================================================
@@ -760,7 +755,7 @@ a.menu-link.active {
 
 .service-text p {
     margin-top: 20px;
-    letter-spacing: 1px;
+    
     color: #fff;
     font-size: 14px;
     line-height: 24px;
@@ -775,7 +770,7 @@ a.menu-link.active {
     margin-top: 60px;
     width: 100px;
     height: 3px;
-    background: #f95343;
+    background: #C78FFF;
 }
 
 .service-list li {
@@ -795,9 +790,10 @@ a.menu-link.active {
 
 .project-content img {
     width: 100%;
+    
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    box-shadow: 0px 9px 31px 6px rgba(0, 0, 0, .2);
+    box-shadow: 0px 9px 31px 6px rgba(255, 255, 255, .2);
 }
 
 .project-content {
@@ -812,17 +808,19 @@ a.menu-link.active {
     width: 100%;
     height: 100%;
     top: 0;
-    z-index: 1;
-    background-image: -moz-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 69, 69) 100%);
-    background-image: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 69, 69) 100%);
-    background-image: -ms-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(255, 69, 69) 100%);
+    right: 0%;
+    z-index: -1;
+    background-image: -moz-linear-gradient(90deg, rgb(132, 9, 255, 0) 0%, rgb(132, 9, 255) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(132, 9, 255, 0) 0%, rgb(132, 9, 255) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(132, 9, 255, 0) 0%, rgb(132, 9, 255) 100%);
     opacity: .5;
 }
+
 
 span.strip {
     width: 40px;
     height: 1px;
-    background: #f95343;
+    background: #C78FFF;
     position: absolute;
     left: 24px;
     top: 10px;
@@ -831,27 +829,28 @@ span.strip {
 
 span.number {
     padding-right: 50px;
+    color: #fff;
 }
 
 
 .detail-project {
     position: absolute;
     bottom: 20px;
-    left: 40px;
+    right: 40px;
     color: #fff;
 }
 
 .detail-project h3 {
-    font-family: 'Playfair Display', serif;
     margin: 0;
     font-size: 24px;
     font-weight: 900;
     position: relative;
     overflow: hidden;
     margin-bottom: 5px;
-    letter-spacing: 1px;
-    color: #f95343;
+    
+    color: #C78FFF;
     padding: 0;
+    text-align: end;
 
 }
 
@@ -859,7 +858,6 @@ span.number {
     margin: 0;
     font-size: 12px;
     color: #fff;
-    letter-spacing: 2px;
 
 }
 
@@ -907,10 +905,7 @@ span.number {
 }
 
 .about-text h4 {
-    font-family: 'Playfair Display', sans-serif;
-    letter-spacing: 2px;
     font-size: 30px;
-    letter-spacing: 0px;
     font-weight: 400;
     color: #fff;
     padding-bottom: 20px;
@@ -991,7 +986,7 @@ span.number {
     left: 0;
     width: 60%;
     height: 5px;
-    background-color: #f95343;
+    background-color: #C78FFF;
     z-index: 2;
 }
 
@@ -999,7 +994,7 @@ p.author-text {
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-    color: #f95343;
+    color: #C78FFF;
 }
 
 .item-partner {
@@ -1018,7 +1013,7 @@ p.author-text {
 .line-testi {
     width: 100%;
     height: 1px;
-    background: #f95343;
+    background: #C78FFF;
     margin: 10px 0;
     opacity: .2;
 }
@@ -1056,10 +1051,9 @@ p.author-text {
 }
 
 .team-text h3 {
-    color: #f95343;
-    font-family: 'Playfair Display', serif;
+    color: #C78FFF;
     font-size: 20px;
-    letter-spacing: 1px;
+    
     font-weight: 900;
 }
 
@@ -1122,10 +1116,10 @@ ul.arrows li {
 }
 
 .news-link {
-    color: #f95343;
+    color: #C78FFF;
     margin-bottom: 20px;
     padding: 10px;
-    border-bottom: solid 1px #f95343;
+    border-bottom: solid 1px #C78FFF;
 }
 
 .news-link:hover {
@@ -1139,7 +1133,6 @@ ul.arrows li {
 
 .news-text h3 {
     color: #fff;
-    letter-spacing: 2px;
     font-size: 15px;
     text-transform: uppercase;
 }
@@ -1153,7 +1146,6 @@ ul.arrows li {
 .news-date p {
     margin: 0;
     font-size: 12px;
-    letter-spacing: 2px;
     color: #fff;
 }
 
@@ -1167,13 +1159,12 @@ ul.arrows li {
 }
 
 .contact-item h3 span {
-    font-family: 'Playfair Display', serif;
-    color: #f95343;
+    color: #C78FFF;
     font-style: italic;
 }
 
 .contact-item a {
-    color: #f95343;
+    color: #C78FFF;
 }
 
 .contact {
@@ -1195,7 +1186,7 @@ a.mail {
 
 a.phone {
     font-weight: 600;
-    letter-spacing: 1px;
+    
 }
 
 .contact-item .social li {
@@ -1203,7 +1194,7 @@ a.phone {
 }
 
 .copyright h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: IRANSans;
     color: #fff;
 
 }
@@ -1229,8 +1220,7 @@ a.phone {
 }
 
 .detailes h3 {
-    color: #f95343;
-    letter-spacing: 3px;
+    color: #C78FFF;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -1258,8 +1248,9 @@ a.phone {
     height: 300px;
     width: 50%;
     background: #222;
-    box-shadow: 14px 14px 50px 7px rgba(0,0,0,.1);
+    box-shadow: 14px 14px 50px 7px rgba(0, 0, 0, .1);
 }
+
 .line-single-page {
     height: 40%;
     width: 1px;
@@ -1270,7 +1261,7 @@ a.phone {
     top: 90%;
     left: 50%;
     z-index: -1;
-    background: #f95343;
+    background: #C78FFF;
 }
 
 .single-page-bg {
@@ -1280,4 +1271,20 @@ a.phone {
     top: 10%;
     background: url('../img/work-detail/3.jpg') center center no-repeat;
     z-index: -4;
+}
+
+
+@media (max-width: 768px) {
+    .square {
+        width: 100%;
+        filter: blur(7px);
+    }
+
+    .project-content img {
+        padding: 25px;
+    }
+    .title h2{
+        font-size: 23px;
+    }
+
 }

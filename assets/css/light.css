@@ -1,8 +1,4 @@
 /*-----------------------------------------------------------------
-Project             : Akar – Creative Digital & Marketing Agency OnePage Template
-Version             : 1.0
-Author              : Cingunt-Themes
-=====================================================================
 
 [Table of contents]
 
@@ -213,7 +209,7 @@ h2 {
 
 h3 {
     font-size: 16px;
-    letter-spacing: 1px;
+
     color: #fff;
     font-weight: 700;
 
@@ -234,10 +230,7 @@ h1 span {
     font-size: 50px;
     font-weight: 800;
     color: #fff;
-
     margin: 0;
-    /* -webkit-text-stroke: 1px #fff;
-    -webkit-text-fill-color: transparent; */
 }
 
 .title h3 {
@@ -286,7 +279,7 @@ p {
 p.sub-title {
     mix-blend-mode: color-dodge;
     font-size: 14px;
-    letter-spacing: 1px;
+
     font-weight: 500;
     line-height: 25px;
     color: #7b8b8e;
@@ -397,21 +390,17 @@ body {
                             [02] Hero
    ========================================================================== */
 .hero {
-    /* direction: rtl; */
-
     height: 100vh;
 }
 
 .hero-title h1 {
     color: #fff;
     margin: 0 !important;
-    letter-spacing: 3px;
     font-size: 44px;
     font-weight: 900;
     font-family: 'IRANSans';
     font-weight: bold;
     font-style: normal;
-    /* width: 200px; */
     text-align: initial;
     margin-bottom: 30px;
 }
@@ -558,8 +547,8 @@ body {
     position: absolute;
     width: 180px;
     font-size: 10px;
-    letter-spacing: 2px;
     color: #fff;
+    letter-spacing: 2px;
     right: 10px;
 }
 
@@ -784,7 +773,7 @@ a.menu-link.active {
     text-align: center;
     direction: rtl;
     margin-bottom: 0;
-    letter-spacing: 1px;
+
     color: #fff;
     font-size: 14px;
     line-height: 24px;
@@ -820,6 +809,7 @@ a.menu-link.active {
 
 .project-content img {
     width: 100%;
+    padding: 20px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     box-shadow: 0px 9px 31px 6px rgba(255, 255, 255, .2);
@@ -875,7 +865,6 @@ span.number {
     position: relative;
     overflow: hidden;
     margin-bottom: 5px;
-    letter-spacing: 1px;
     color: #C78FFF;
     padding: 0;
     text-align: end;
@@ -886,7 +875,6 @@ span.number {
     margin: 0;
     font-size: 12px;
     color: #ffffff;
-    letter-spacing: 1px;
     font-family: IRANSans;
 
 }
@@ -939,9 +927,7 @@ span.number {
 }
 
 .about-text h4 {
-    letter-spacing: 2px;
     font-size: 30px;
-    letter-spacing: 0px;
     font-weight: 400;
     color: #fff;
     padding-bottom: 20px;
@@ -1087,7 +1073,6 @@ p.author-text {
 .team-text h3 {
     color: #C78FFF;
     font-size: 20px;
-    letter-spacing: 1px;
     font-weight: 900;
 }
 
@@ -1141,6 +1126,7 @@ ul.arrows li {
     position: absolute;
     top: 50%;
     width: 90%;
+    height: max-content;
     transform: translate(-50%, -50%);
     left: 50%;
     padding: 20px 10px 30px;
@@ -1167,7 +1153,6 @@ ul.arrows li {
 
 .news-text h3 {
     color: #222;
-    letter-spacing: 1px;
     font-size: 15px;
     text-transform: uppercase;
 }
@@ -1181,7 +1166,6 @@ ul.arrows li {
 .news-date p {
     margin: 0;
     font-size: 12px;
-    letter-spacing: 2px;
     color: #fff;
 }
 
@@ -1222,7 +1206,7 @@ a.mail {
 
 a.phone {
     font-weight: 600;
-    letter-spacing: 1px;
+
 }
 
 .contact-item .social li {
@@ -1257,7 +1241,6 @@ a.phone {
 
 .detailes h3 {
     color: #C78FFF;
-    letter-spacing: 3px;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -1308,4 +1291,20 @@ a.phone {
     top: 10%;
     background: url('../img/work-detail/3.jpg') center center no-repeat;
     z-index: -4;
+}
+
+
+@media (max-width: 768px) {
+    .square {
+        width: 100%;
+        filter: blur(7px);
+    }
+
+    .project-content img {
+        padding: 25px;
+    }
+    .testimonial-item p{
+        font-size: 11px;
+    }
+
 }
