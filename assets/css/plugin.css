@@ -38,6 +38,7 @@
    border-radius: 3px;
  }
 
+
  .owl-theme .owl-nav [class*='owl-']:hover {
    background: #869791;
    color: #FFF;
@@ -79,3 +80,24 @@
  .owl-theme .owl-dots .owl-dot:hover span {
    background: #869791;
  }
+
+ 
+.roww{
+  display: flex;
+  margin-right: 183px;
+  margin-left: 163px;
+ }
+
+
+
+ @media (max-width: 768px) {
+
+  .roww{
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+     }
+
+}

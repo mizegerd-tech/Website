@@ -26,7 +26,7 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
-@import url('https://charpa.ir/fonts/WebFonts/css/fontiran.css');
+@import url('/assets/fonts/Farsi_numerals/WebFonts/css/fontiran.css');
 
 /*preloader */
 body {
@@ -209,7 +209,7 @@ h2 {
 
 h3 {
     font-size: 16px;
-    
+
     color: #fff;
     font-weight: 700;
 
@@ -281,7 +281,7 @@ p {
 p.sub-title {
     mix-blend-mode: color-dodge;
     font-size: 14px;
-    
+
     font-weight: 500;
     line-height: 25px;
     color: #7b8b8e;
@@ -384,7 +384,6 @@ body {
 .line-col.fifth {
     left: 90%;
 }
-
 
 
 
@@ -755,7 +754,7 @@ a.menu-link.active {
 
 .service-text p {
     margin-top: 20px;
-    
+
     color: #fff;
     font-size: 14px;
     line-height: 24px;
@@ -790,7 +789,7 @@ a.menu-link.active {
 
 .project-content img {
     width: 100%;
-    
+
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     box-shadow: 0px 9px 31px 6px rgba(255, 255, 255, .2);
@@ -847,7 +846,7 @@ span.number {
     position: relative;
     overflow: hidden;
     margin-bottom: 5px;
-    
+
     color: #C78FFF;
     padding: 0;
     text-align: end;
@@ -1053,7 +1052,7 @@ p.author-text {
 .team-text h3 {
     color: #C78FFF;
     font-size: 20px;
-    
+
     font-weight: 900;
 }
 
@@ -1186,7 +1185,7 @@ a.mail {
 
 a.phone {
     font-weight: 600;
-    
+
 }
 
 .contact-item .social li {
@@ -1240,6 +1239,83 @@ a.phone {
     background-size: cover;
 }
 
+.square-project-detail1 {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/work-detail/2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.square-project-detail2 {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/work-detail/3.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.square-project-detail3 {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/work-detail/4.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.square-project-detail4 {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/work-detail/5.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.square-project-detail5 {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/work-detail/6.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.square-project-detail6 {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/work-detail/7.jpg') no-repeat center center;
+    background-size: cover;
+}
+.square-project-detail7 {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/work-detail/8.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+
 /* ==========================================================================
                             [11] Single Page
    ========================================================================== */
@@ -1269,7 +1345,6 @@ a.phone {
     height: 80%;
     position: absolute;
     top: 10%;
-    background: url('../img/work-detail/3.jpg') center center no-repeat;
     z-index: -4;
 }
 
@@ -1283,8 +1358,10 @@ a.phone {
     .project-content img {
         padding: 25px;
     }
-    .title h2{
+
+    .title h2 {
         font-size: 23px;
     }
+
 
 }

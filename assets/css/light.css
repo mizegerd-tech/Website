@@ -26,7 +26,7 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
-@import url('https://charpa.ir/fonts/WebFonts/css/fontiran.css');
+@import url('/assets/fonts/Farsi_numerals/WebFonts/css/fontiran.css');
 
 /*preloader */
 body {
@@ -1303,7 +1303,8 @@ a.phone {
     .project-content img {
         padding: 25px;
     }
-    .testimonial-item p{
+
+    .testimonial-item p {
         font-size: 11px;
     }
 
