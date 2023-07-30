@@ -33,6 +33,7 @@ body {
     font-family: 'IRANSans';
     font-weight: normal;
     font-style: normal;
+    cursor: url('/assets/img/cursor.png'), pointer;
 }
 
 #preloader {
