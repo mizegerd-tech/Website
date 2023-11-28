@@ -790,9 +790,7 @@ a.menu-link.active {
 .service {
     margin-bottom: 100px;
 }
-.service h3,h2 {
-    text-align: initial;direction: rtl;
-}
+
 .fd-rw{
     flex-direction: row-reverse;
 }
@@ -1000,10 +998,11 @@ span.number {
     padding-bottom: 20px;
 }
 
-.about-text h3,h2,p {
+.ta-i-rtl {
     text-align: initial;
     direction: rtl;
 }
+
 
 
 
