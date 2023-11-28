@@ -297,7 +297,9 @@ body {
     justify-content: center;
 }
 
-
+.ta-center{
+    text-align-last: center
+}
 .scroll-up {
     top: 0;
     position: absolute;
@@ -396,6 +398,13 @@ body {
     height: 100vh;
 }
 
+.ta-i{text-align: initial;}
+.fw-700{
+    font-weight: 700;
+}
+.hero-title{
+    direction: rtl;
+}
 .hero-title h1 {
     color: #fff;
     margin: 0 !important;
@@ -781,6 +790,18 @@ a.menu-link.active {
 .service {
     margin-bottom: 100px;
 }
+.service h3,h2 {
+    text-align: initial;direction: rtl;
+}
+.fd-rw{
+    flex-direction: row-reverse;
+}
+.filter-color{
+    filter: hue-rotate(270deg);
+}
+.ta-end{
+    text-align: end;
+}
 
 .service-item {
     transition: all 0.3s ease;
@@ -977,6 +998,11 @@ span.number {
     font-weight: 400;
     color: #fff;
     padding-bottom: 20px;
+}
+
+.about-text h3,h2,p {
+    text-align: initial;
+    direction: rtl;
 }
 
 
@@ -1215,10 +1241,23 @@ ul.arrows li {
     color: #fff;
 }
 
+.rtl-tai{
+    text-align: center;
+direction: rtl;
+}
 .news-date p {
     margin: 0;
     font-size: 12px;
     color: #fff;
+}
+
+.rtlsa{
+    text-align: initial;
+    direction: rtl;
+}
+.ta-ia{
+    flex-direction: row-reverse;
+    text-align: initial;
 }
 
 /* ==========================================================================
@@ -1228,6 +1267,13 @@ ul.arrows li {
 .contact-item h3 {
     color: #fff;
     margin-bottom: 20px;
+    text-align: initial;
+    direction: rtl;
+}
+.contact-item p{
+    text-align: initial;
+    direction: rtl;
+    -webkit-text-fill-color: #C78FFF;
 }
 
 .contact-item h3 span {
