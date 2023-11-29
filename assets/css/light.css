@@ -24,6 +24,9 @@
    ========================================================================== */
 
 /*preloader */
+html {
+    width: 100%;
+}
 body {
     font-family: 'IRANSans';
     font-weight: normal;
@@ -444,7 +447,6 @@ body {
     bottom: 0;
     right: 10%;
     filter: hue-rotate(270deg);
-
 }
 
 .hero-bg::before {
@@ -489,19 +491,6 @@ body {
     z-index: -15;
     filter: blur(100px);
     background-color: #4F359B;
-}
-
-.effect3 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(20%, -50%);
-    width: 80%;
-    height: 80%;
-    border-radius: 50%;
-    z-index: -15;
-    filter: blur(100px);
-    background-color: #c78fff57;
 }
 
 .square-overlay {
@@ -1130,6 +1119,18 @@ p.author-text {
 
 }
 
+.effect3 {
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    right: 0px;
+    height: 50%;
+    border-radius: 50%;
+    z-index: -2;
+    filter: blur(100px);
+    background-color: #c78fff57;
+}
+
 .team-text {
     position: absolute;
     text-align: center;
@@ -1137,6 +1138,7 @@ p.author-text {
     left: 50%;
     bottom: 0;
 }
+
 
 .team-text h3 {
     color: #C78FFF;
