@@ -32,6 +32,8 @@ body {
     font-weight: normal;
     font-style: normal;
     cursor: url('/assets/img/cursor.png'), pointer;
+    width: 100vw;
+    height: 100vh;
 }
 
 #preloader {
