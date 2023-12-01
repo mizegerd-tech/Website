@@ -25,8 +25,7 @@
 
 /*preloader */
 html {
-    width: 100%;
-    overflow-x: hidden;
+    width: 100%;   
 }
 body {
     font-family: 'IRANSans';
@@ -35,6 +34,7 @@ body {
     cursor: url('/assets/img/cursor.png'), pointer;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 #preloader {
