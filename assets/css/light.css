@@ -26,6 +26,7 @@
 /*preloader */
 html {
     width: 100%;
+    overflow-x: hidden;
 }
 body {
     font-family: 'IRANSans';
