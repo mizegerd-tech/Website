@@ -28,6 +28,7 @@
 
 html {
     width: 100%;   
+    
 }
 body {
     font-family: 'IRANSans';
@@ -55,6 +56,10 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.fix-scroll{
+    overflow-x: hidden;
 }
 
 a {
