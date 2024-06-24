@@ -1313,6 +1313,16 @@ a.phone {
     background: url('../img/work-detail/8.jpg') no-repeat center center;
     background-size: cover;
 }
+.square-project-detail8 {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/work-detail/9.jpg') no-repeat center center;
+    background-size: cover;
+}
 
 
 /* ==========================================================================
