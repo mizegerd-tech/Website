@@ -472,7 +472,7 @@ body {
     /* left: 0; */
     right: 0;
     position: absolute;
-    background: url('../img/bg-hero.png') no-repeat center center;
+    background: url('../img/bg-hero.webp') no-repeat center center;
     background-size: cover;
 
 }
