@@ -32,6 +32,25 @@ body {
     cursor: url('/assets/img/cursor.png'), pointer;
 }
 
+/* For WebKit browsers (like Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px; /* Change this value to make the scrollbar thinner or thicker */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Makes the scrollbar thumb rounded */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff; /* Color when you hover over the scrollbar thumb */
+}
+
+/* Optional: customize the scrollbar track (background) */
+::-webkit-scrollbar-track {
+    background-color: #222222; /* Color of the scrollbar track */
+}
+
 #preloader {
     width: 100%;
     height: 100%;
@@ -1331,6 +1350,26 @@ a.phone {
     right: 0;
     position: absolute;
     background: url('../img/work-detail/10.webp') no-repeat center center;
+    background-size: cover;
+}
+.square-project-detail10 {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/work-detail/11.webp') no-repeat center center;
+    background-size: cover;
+}
+.square-project-detail11 {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/work-detail/12.webp') no-repeat center center;
     background-size: cover;
 }
 
