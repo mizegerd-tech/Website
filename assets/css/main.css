@@ -1370,6 +1370,16 @@ a.phone {
     background: url('../img/work-detail/12.webp') no-repeat center center;
     background-size: cover;
 }
+.square-project-detail12 {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/work-detail/13.webp') no-repeat center center;
+    background-size: cover;
+}
 
 
 /* ==========================================================================
