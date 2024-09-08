@@ -289,6 +289,50 @@ h1 span {
     transform: rotate(45deg);
 }
 
+.title-en {
+    padding: 30px 0;
+    z-index: 2;
+    position: relative;
+    text-align-last: left;
+}
+
+.title-en h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+}
+
+.title-en h3 {
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #C78FFF;
+    font-size: 18px;
+
+}
+
+.title-en:before {
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.title-en:before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    background: url('../img/text-bg-light.svg') repeat;
+    background-size: 10px;
+    opacity: .1;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
 .line {
     background: url('../img/line.png') center center no-repeat;
     height: 9px;
@@ -361,6 +405,19 @@ body {
     display: block;
     z-index: -3;
 }
+.right-bg-en {
+    position: absolute;
+    width: 60%;
+    border-radius: 40px 0 0 40px;
+    height: calc(100% + 200px);
+    background: #222222;
+    opacity: 1;
+    left: 0;
+    top: 0;
+    margin-top: -100px;
+    display: block;
+    z-index: -3;
+}
 
 .left-bg {
     position: absolute;
@@ -369,6 +426,19 @@ body {
     background: #222222;
     opacity: 1;
     right: 0;
+    top: 0;
+    border-radius: 40px 0 0 40px;
+    margin-top: -100px;
+    display: block;
+    z-index: -3;
+}
+.left-bg-en {
+    position: absolute;
+    width: 60%;
+    height: calc(100% + 200px);
+    background: #222222;
+    opacity: 1;
+    left: 0;
     top: 0;
     border-radius: 40px 0 0 40px;
     margin-top: -100px;
@@ -429,6 +499,9 @@ body {
 }
 .hero-title{
     direction: rtl;
+}
+.hero-title-en{
+    direction: ltr;
 }
 .hero-title h1 {
     color: #fff;
@@ -596,6 +669,16 @@ body {
     right: 3%;
     border: 1px solid #C78FFF;
     z-index: 1000 !important;
+}
+.language{
+    position: fixed;
+    margin-left: 60%;
+    width: 50px;
+    height: 50px;
+    z-index: 1000 !important;
+    align-content: center;
+    text-decoration:none;
+    color:#FFF;
 }
 
 .logo {
@@ -846,7 +929,9 @@ a.menu-link.active {
     color: #fff;
     text-align: center;
 }
-
+.about-inner-en h2,p{
+    direction: ltr;
+}
 
 .service-text p {
     margin-top: 20px;
@@ -857,6 +942,21 @@ a.menu-link.active {
     color: #fff;
     font-size: 14px;
     line-height: 24px;
+}
+
+.service-text-en p {
+    margin-top: 20px;
+    text-align: center;
+    direction: ltr;
+    margin-bottom: 0;
+
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.service-text-en{
+    text-align: center;
 }
 
 .service-list {
@@ -924,7 +1024,7 @@ span.strip {
     height: 1px;
     background: #C78FFF;
     position: absolute;
-    left: 24px;
+    left: 20px;
     top: 10px;
 
 }
@@ -961,6 +1061,33 @@ span.number {
     color: #ffffff;
     font-family: IRANSans;
 
+}
+
+
+.detail-project-en {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    color: #fff;
+}
+
+
+.detail-project-en h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+    color: #C78FFF;
+    padding: 0;
+
+}
+
+.detail-project-en p {
+    margin: 0;
+    font-size: 12px;
+    color: #ffffff;
 }
 
 
@@ -1288,24 +1415,35 @@ direction: rtl;
                             [09] CONTACT
    ========================================================================== */
 
-.contact-item h3 {
+.contact-item h3  {
     color: #fff;
     margin-bottom: 20px;
     text-align: initial;
     direction: rtl;
 }
-.contact-item p{
+.contact-item-en h3 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: initial;
+    direction: ltr;
+}
+.contact-item p {
     text-align: initial;
     direction: rtl;
     -webkit-text-fill-color: #C78FFF;
 }
+.contact-item-en p{
+    text-align: initial;
+    direction: ltr;
+    -webkit-text-fill-color: #C78FFF;
+}
 
-.contact-item h3 span {
+.contact-item h3 span , .contact-item-en h3 span{
     color: #C78FFF;
     font-style: italic;
 }
 
-.contact-item a {
+.contact-item a , .contact-item-en a {
     color: #C78FFF;
 }
 
@@ -1320,6 +1458,12 @@ direction: rtl;
     right: 0;
 }
 
+.contact-item-en {
+    position: relative !important;
+    bottom: 0;
+    left: 0;
+}
+
 a.mail {
     font-size: 16px;
     color: #fff;
@@ -1331,7 +1475,7 @@ a.phone {
 
 }
 
-.contact-item .social li {
+.contact-item , .contact-item-en ,.social li {
     margin: 0 10px 0 0;
 }
 

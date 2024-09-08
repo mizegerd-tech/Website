@@ -87,6 +87,14 @@
   margin-right: 183px;
   margin-left: 163px;
  }
+ 
+.roww-en{
+  display: flex;
+  margin-right: 183px;
+  margin-left: 163px;
+  flex-direction: row-reverse;
+ }
+
 
 
 
