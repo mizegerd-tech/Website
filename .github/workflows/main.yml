@@ -31,13 +31,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        
+      # Optional: Remove unnecessary files if needed (e.g., README.md, .gitignore, etc.)
+      - name: Clean up unnecessary files
+        run: |
+          rm -rf .gitignore README.md # Add any other files you don't need to deploy
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          # Upload entire repository
+          # Upload entire repository or specify the directory you want to deploy
           path: '.'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
