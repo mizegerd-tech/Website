@@ -35,6 +35,9 @@
     .hero-title h1 {
         font-size: 40px;
     }
+    .hero-title-en h1 {
+        font-size: 40px;
+    }
 
     .links::before {
         display: none;
@@ -45,6 +48,10 @@
     }
 
     .hero-title {
+        padding: 0 30px;
+    }
+
+    .hero-title-en {
         padding: 0 30px;
     }
 }

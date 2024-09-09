@@ -26,7 +26,6 @@
 
 /*preloader */
 body {
-    font-family: 'IRANSans';
     font-weight: normal;
     font-style: normal;
     cursor: url('/assets/img/cursor.png'), pointer;
@@ -250,6 +249,51 @@ h1 span {
     -webkit-text-fill-color: transparent; */
 }
 
+.title-en {
+padding: 30px 0;
+z-index: 2;
+position: relative;
+text-align-last: left;
+}
+
+.title-en h2 {
+font-size: 50px;
+font-weight: 800;
+color: #fff;
+margin: 0;
+}
+
+.title-en h3 {
+margin: 0;
+font-weight: 500;
+letter-spacing: 0;
+color: #C78FFF;
+font-size: 18px;
+
+}
+
+.title-en:before {
+left: 50%;
+-webkit-transform: translateX(-50%) rotate(45deg);
+transform: translateX(-50%) rotate(45deg);
+}
+
+.title-en:before {
+content: '';
+position: absolute;
+top: 15px;
+left: 0;
+width: 120px;
+height: 120px;
+z-index: 1;
+background: url('../img/text-bg-light.svg') repeat;
+background-size: 10px;
+opacity: .1;
+z-index: -1;
+transform: rotate(45deg);
+}
+
+
 .title h3 {
     margin: 0;
     font-weight: 500;
@@ -349,6 +393,23 @@ body {
     z-index: -3;
 }
 
+.language{
+    position: fixed;
+    margin-left: 60%;
+    width: 50px;
+    height: 50px;
+    z-index: 1000 !important;
+    align-content: center;
+    text-decoration:none;
+    color:#FFF;
+    font-weight: 400;
+}
+.language:hover{
+    font-weight: 700;
+    color:#8409ff;
+}
+
+
 .left-bg {
     position: absolute;
     width: 60%;
@@ -357,6 +418,20 @@ body {
     opacity: 1;
     right: 0;
     top: 0;
+    margin-top: -100px;
+    display: block;
+    z-index: -3;
+}
+
+.left-bg-en {
+    position: absolute;
+    width: 60%;
+    height: calc(100% + 200px);
+    background: #222222;
+    opacity: 1;
+    left: 0;
+    top: 0;
+    border-radius: 40px 0 0 40px;
     margin-top: -100px;
     display: block;
     z-index: -3;
@@ -876,6 +951,32 @@ span.number {
 
 }
 
+.detail-project-en {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    color: #fff;
+}
+
+
+.detail-project-en h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+    color: #C78FFF;
+    padding: 0;
+
+}
+
+.detail-project-en p {
+    margin: 0;
+    font-size: 12px;
+    color: #ffffff;
+}
+
 
 
 /* ==========================================================================
@@ -1173,12 +1274,12 @@ ul.arrows li {
     margin-bottom: 20px;
 }
 
-.contact-item h3 span {
+.contact-item h3 span , .contact-item-en h3 span{
     color: #C78FFF;
     font-style: italic;
 }
 
-.contact-item a {
+.contact-item a , .contact-item-en a{
     color: #C78FFF;
 }
 

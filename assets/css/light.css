@@ -31,7 +31,6 @@ html {
     
 }
 body {
-    font-family: 'IRANSans';
     font-weight: normal;
     font-style: normal;
     cursor: url('/assets/img/cursor.png'), pointer;
@@ -44,12 +43,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #888;
+    background-color: #9c70c9;
     border-radius: 10px; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #ffffff;
+    background-color: #c48dfc;
 }
 
 ::-webkit-scrollbar-track {
@@ -193,6 +192,9 @@ a:hover {
 
 .mt-50 {
     margin-top: 50px !important;
+}
+.pb-30{
+    padding-bottom: 40px !important;
 }
 
 .mt-60 {
@@ -1069,31 +1071,6 @@ span.number {
 }
 
 
-.detail-project-en {
-    position: absolute;
-    bottom: 20px;
-    left: 40px;
-    color: #fff;
-}
-
-
-.detail-project-en h3 {
-    margin: 0;
-    font-size: 24px;
-    font-weight: 900;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 5px;
-    color: #C78FFF;
-    padding: 0;
-
-}
-
-.detail-project-en p {
-    margin: 0;
-    font-size: 12px;
-    color: #ffffff;
-}
 
 
 
@@ -1302,7 +1279,7 @@ p.author-text {
 
 .team-text h3 {
     color: #C78FFF;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
 }
 
@@ -1486,6 +1463,10 @@ a.phone {
 
 .copyright h3 {
     font-family: IRANSans;
+    color: #fff;
+
+}
+.copyright-en h3 {
     color: #fff;
 
 }
