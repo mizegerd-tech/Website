@@ -679,6 +679,11 @@ body {
     align-content: center;
     text-decoration:none;
     color:#FFF;
+    font-weight: 400;
+}
+.language:hover{
+    font-weight: 700;
+    color:#8409ff;
 }
 
 .logo {
