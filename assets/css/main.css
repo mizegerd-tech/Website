@@ -922,6 +922,20 @@ span.number {
     color: #fff;
 }
 
+.details{
+    text-align: left;
+    margin: 30px 0;
+}
+
+.details h3 {
+    color: #C78FFF;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.details p {
+    margin: 0;
+}
 
 .detail-project {
     position: absolute;
