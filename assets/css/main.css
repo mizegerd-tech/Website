@@ -404,7 +404,21 @@ body {
     color:#FFF;
     font-weight: 400;
 }
-.language:hover{
+
+.languagefa{font-family: 'IRANSans';
+    font-weight: normal;
+    font-style: normal;
+    position: fixed;
+    margin-left: 60%;
+    width: 50px;
+    height: 50px;
+    z-index: 1000 !important;
+    align-content: center;
+    text-decoration:none;
+    color:#FFF;
+    font-weight: 400;}
+
+.language:hover,.languagefa:hover{
     font-weight: 700;
     color:#8409ff;
 }
