@@ -1,6 +1,22 @@
 (function ($) {
   "use strict";
 
+  const scrollContainer = document.getElementById('scrollContainer');
+
+  function scrollLeft() {
+      scrollContainer.scrollBy({
+          left: -200, // Adjust scroll amount
+          behavior: 'smooth'
+      });
+  }
+
+  function scrollRight() {
+      scrollContainer.scrollBy({
+          left: 200, // Adjust scroll amount
+          behavior: 'smooth'
+      });
+  }
+
   // preloader
   $(window).on("load", function () {
     $("#preloader").delay(350).fadeOut("slow");
@@ -570,6 +586,9 @@
   //--------------------------------------------------
   // Owl Carousel Setup
   //--------------------------------------------------
+
+
+
 
   // about slider
   testiSlider();

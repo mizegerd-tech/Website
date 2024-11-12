@@ -244,8 +244,7 @@ h3 {
 }
 
 h1 span {
-    color: transparent;
-    -webkit-text-stroke: 1px #fff;
+    color: #C78FFF;
 }
 
 .title {
@@ -581,6 +580,87 @@ body {
     filter: blur(100px);
     background-color: rgba(121, 7, 235, 0.192);
 }
+.effect4 {
+    position: absolute;
+    left: 30%;
+    transform: translate(-30%, 0%);
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    z-index: -15;
+    filter: blur(100px);
+    background-color: rgba(121, 7, 235, 0.192);
+}
+.effect5 {
+    position: absolute;
+    left: 30%;
+    transform: translate(-30%, 70%);
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    z-index: -15;
+    filter: blur(100px);
+    background-color: rgba(121, 7, 235, 0.192);
+}
+.effect6 {
+    position: absolute;
+    left: 30%;
+    transform: translate(-100%, 20%);
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    z-index: -15;
+    filter: blur(100px);
+    background-color: rgba(121, 7, 235, 0.192);
+}
+.effect7 {
+    position: absolute;
+    left: 30%;
+    transform: translate(-100%, 95%);
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    z-index: -15;
+    filter: blur(100px);
+    background-color: rgba(121, 7, 235, 0.192);
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0,30%,0);
+        transform: translate3d(0,30%,0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInUpBig {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0,2000px,0);
+        transform: translate3d(0,2000px,0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
 
 .effect2 {
     position: absolute;
@@ -675,7 +755,7 @@ body {
 
 .language{
     position: fixed;
-    margin-left: 60%;
+    margin-left: 90px;
     width: 50px;
     height: 50px;
     z-index: 1000 !important;
@@ -689,7 +769,7 @@ body {
     font-weight: normal;
     font-style: normal;
     position: fixed;
-    margin-left: 60%;
+    margin-left: 90px;
     width: 50px;
     height: 50px;
     z-index: 1000 !important;
@@ -710,6 +790,7 @@ body {
     height: 50px;
     left: 3%;
     z-index: 1000 !important;
+    display: flex;
 }
 
 .toggle-btn::before {
@@ -965,6 +1046,9 @@ a.menu-link.active {
     font-size: 14px;
     line-height: 24px;
 }
+/* .service-text p span{
+    color: #4F359B;
+} */
 
 .service-text-en p {
     margin-top: 20px;
@@ -1151,6 +1235,7 @@ span.number {
     color: #d6d6d6;
     font-size: 15px;
     font-weight: 300;
+    direction: rtl;
 }
 
 .about-text h4 {
@@ -1165,6 +1250,21 @@ span.number {
     direction: rtl;
 }
 
+.rtll{
+    direction: rtl;
+    justify-self: right;
+
+}
+.percentage{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 80px 2px;
+}
+
+.img-percentage{
+    max-width: 34%;
+}
 
 
 
@@ -1271,8 +1371,30 @@ p.author-text {
     opacity: 1;
 }
 
+.owl-item{
+    width: 10%;
+}
+.approach7{
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: var(--item-spacing-27, 27px);
+direction: rtl;
+text-align: right;
+font-family: 'IRANSans';
+}
 
+.approach7 h3{
+    font-size: 22.875px;
+}
 
+.card7{
+    
+    border-right: 3px solid #b583e8;
+    padding-right: 4px;
+        
+
+}
 /* ==========================================================================
                             [07] Team
    ========================================================================== */
@@ -1308,6 +1430,7 @@ p.author-text {
     filter: blur(100px);
     background-color: #c78fff57;
 }
+
 
 .team-text {
     position: absolute;
@@ -1461,7 +1584,7 @@ direction: rtl;
     -webkit-text-fill-color: #C78FFF;
 }
 
-.contact-item h3 span , .contact-item-en h3 span{
+.contact-item h3 span , .contact-item-en h3 span , .service-text p span{
     color: #C78FFF;
     font-style: italic;
 }
