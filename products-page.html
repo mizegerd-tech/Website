@@ -126,7 +126,7 @@ font-style: normal;
                                 <div class="col-lg-8">
                                     <div class="links text-center text-lg-left">
                                         <ul>
-                                            <li><a class="menu-link active" href="/index.html" data-scroll-nav="0">خانه</a></li>
+                                            <li><a class="menu-link active" href="/index.html">خانه</a></li>
                                             <li><a class="menu-link" href="#" data-scroll-nav="1">مشکل چی بود؟</a></li>
                                             <li><a class="menu-link" href="#" data-scroll-nav="2"> رویکرد</a></li>
                                             <li><a class="menu-link" href="#" data-scroll-nav="3">خدمات</a></li>
@@ -246,7 +246,7 @@ font-style: normal;
                 <div class="col-lg-6 order-lg-2">
 
                     <div class="about-text">
-                        <div class="title text-left">
+                        <div class=" text-left">
                             <h2 class="ta-i-rtl" style="font-size: 40px;font-weight: 500;">اما مشكل چی بود؟!</h2>
                             <h2 class="ta-i-rtl" style="font-size: 40px;font-weight: 500;">رفع محدودیت‌ دسترسی</h2>
                             <h2 class="ta-i-rtl" style="font-size: 40px;font-weight: 500;"> ولی با در نظر گرفتن امنیت</h2>
@@ -262,7 +262,7 @@ font-style: normal;
                 <div class="col-lg-6 order-lg-1 percentage">
                     <div class="about-img img-percentage">
                         <div class="about-overlay"></div>
-                        <img class="img-fluid img-project" data-scroll-index="3" src="/assets/img/products/client-percentage.png" alt="آژانس دیجیتال میزگرد - تیم ما در حال کار بر روی پروژه‌های خلاقانه دیجیتال" width="575" height="375" style="max-width: 75%;">
+                        <img class="img-fluid img-project" src="/assets/img/products/client-percentage.png" alt="آژانس دیجیتال میزگرد - تیم ما در حال کار بر روی پروژه‌های خلاقانه دیجیتال" width="575" height="375" style="max-width: 75%;">
                     </div>
                     <div style="
                     display: flex;
@@ -330,7 +330,7 @@ font-style: normal;
                 </div>
                 <div class="col-lg-12">
                     <div class="mb-40">
-                        <a class="btn-main" href="/portfolio.html">بزن بریم</a>
+                        <a class="btn-main" href="#" data-scroll-nav="3">بزن بریم</a>
                     </div>
                 </div>
         </div>
@@ -368,7 +368,7 @@ font-style: normal;
 
                         <div class="col-lg-12">
                             <div class="mb-40">
-                                <a class="btn-main" href="/portfolio.html">تمام خدمات میزگرد</a>
+                                <a class="btn-main" href="/services.html">تمام خدمات میزگرد</a>
                             </div>
                         </div>
                     </div>
@@ -393,8 +393,8 @@ font-style: normal;
 
 
             <div class="row fd-rw">
-                <div class="rtl-tai mt-50">
-                    <h1 class="service-text" style="direction: rtl;    text-align: initial;">مشتریان<span>.</span></p>
+                <div class="rtl-tai mt-50 mb-10">
+                    <h1 class="service-text" style="direction: rtl;    text-align: initial;">مشتریان<span>.</span></p></h1>
                     <div class="flex items-center ">
                         <h1 style="font-size: 34.44px;font-weight: 700;"><span>5.</span> صاحبین کسب و کاری که برای اتوماسیون به میزگرد اعتماد کرده‌اند.</h1>
                         <!-- <div class="mt-40 text-center">
@@ -610,7 +610,7 @@ font-style: normal;
 
                         <div class="col-lg-12">
                             <div class="mb-40">
-                                <a class="btn-main" href="/portfolio.html">شخصی سازی</a>
+                                <a class="btn-main" href="/portfolio.html" data-scroll-nav="9">شخصی سازی</a>
                             </div>
                         </div>
                     </div>
@@ -662,7 +662,17 @@ font-style: normal;
                 <div class="col-lg-8 order-lg-2">
                     <div class="row fd-rw">
                         <div class="rtl-tai mt-50 text-right">
-                            <h1 style="font-size: 64.44px;font-weight: 700;"><span>1.</span> اون چیه که ما رو متمايز میکنه؟<br> تخصص ديجيتالِ <br>چند بعدیِ<br>جامع<br>و کافیِ<br>میزگرد</h1>
+                            <h1 style="font-size: 64.44px; font-weight: 700; position: relative;" id="animated-text">
+                                <div class="linee"><span>1.</span> اون چیه که ما رو متمايز میکنه؟</div>
+                                <div class="linee">تخصص ديجيتالِ</div>
+                                <div class="linee">چند بعدیِ</div>
+                                <div class="linee">جامع</div>
+                                <div class="linee">و کافیِ</div>
+                                <div class="linee text-8xl">میزگرد</div>
+                                <div class="point-animation"></div>
+                              </h1>
+                              
+                              
                         </div>
                     </div>
                     <div class="about-text" style="padding: 0;padding-left: 35%;">
@@ -687,7 +697,74 @@ font-style: normal;
                 </div>
             </div>
         </div>
+        <style>
+
+.linee {
+  position: relative;
+  display: block;
+  margin-bottom: 30px; /* فاصله بین خطوط */
+}
+
+.point-animation {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #c78fff;
+  border-radius: 50%;
+  z-index: 1000; /* تضمین نمایش نقطه در بالاترین لایه */
+  transition: top 0.5s ease-out, left 0.5s ease-out;
+  margin-left: -50px;
+}
+
+        </style>
         
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+  const pointAnimation = document.querySelector('.point-animation');
+  const lines = document.querySelectorAll('.linee');
+  const container = document.querySelector('#animated-text'); // والد اصلی
+
+  function updatePointOnScroll() {
+    lines.forEach((line) => {
+      const lineRect = line.getBoundingClientRect();
+      const containerRect = container.getBoundingClientRect();
+
+      // بررسی اینکه آیا خط در محدوده دید کاربر است یا نه
+      if (
+        lineRect.top >= 0 &&
+        lineRect.bottom <= window.innerHeight // خط کاملاً در محدوده دید است
+      ) {
+        // مختصات ابتدای متن داخل خط (همراه با span یا دیگر عناصر داخلی)
+        const firstChild = line.firstElementChild || line; // اولین فرزند (مثلاً <span>)
+        const range = document.createRange();
+        range.selectNodeContents(firstChild);
+        const textRect = range.getBoundingClientRect();
+
+        const offsetTop = textRect.top - containerRect.top + textRect.height / 2; // وسط خط
+        const offsetLeft = textRect.left - containerRect.left; // ابتدای متن واقعی
+
+        // تنظیم موقعیت نقطه
+        pointAnimation.style.top = `${offsetTop}px`;
+        pointAnimation.style.left = `${offsetLeft}px`;
+      }
+    });
+  }
+
+  // رویداد اسکرول برای به‌روزرسانی موقعیت
+  window.addEventListener('scroll', updatePointOnScroll);
+
+  // به‌روزرسانی اولیه موقعیت
+  updatePointOnScroll();
+});
+
+
+
+
+
+        </script>
+
     </section>
     <section id="about" class="about parallax-scrl fix-scroll" data-scroll-index="9">
         <div class="container">
@@ -740,7 +817,7 @@ font-style: normal;
                             <!-- Submit Button -->
                             <div class="text-left">
                                 <button type="submit"
-                                    class="py-2 px-4 bg-purple-500 hover:bg-purple-600 text-white font-semibold rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+                                    class="py-2 px-4 bg-purple-500 hover:bg-purple-600 text-white font-semibold rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500" style="height: 63px;">
                                     ارسال درخواست
                                 </button>
                             </div>

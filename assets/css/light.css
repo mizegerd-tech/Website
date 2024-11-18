@@ -1258,7 +1258,7 @@ span.number {
 .percentage{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 80px 2px;
 }
 
@@ -1635,7 +1635,9 @@ a.phone {
 
 }
 
-
+.paddding-35{
+    padding-left: 35%;
+}
 /* ==========================================================================
                             [10] Detail Project
    ========================================================================== */
@@ -1722,6 +1724,24 @@ a.phone {
 
     .testimonial-item p {
         font-size: 11px;
+    }
+    .percentage{
+        padding-top: 50px;
+    }
+    .approach7{
+        flex-wrap: wrap;
+    }
+    .about-text{
+        padding-left:0% !important;
+    }
+    .service {
+        margin-bottom: 50px;
+    }
+    .service-text{
+            margin-right: 20px;
+    }
+    .ta-i-rtl{
+        text-align: center;
     }
 
 }
