@@ -1689,6 +1689,31 @@ a.phone {
     box-shadow: 14px 14px 50px 7px rgba(0, 0, 0, .1);
 }
 
+.happy-customer{
+    display: flex;
+                    flex-direction: column;
+                    padding-top: 10%;
+}
+
+.linee {
+    position: relative;
+    display: block;
+    margin-bottom: 30px; /* فاصله بین خطوط */
+    font-size: 4rem;
+  }
+  
+  .point-animation {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #c78fff;
+    border-radius: 50%;
+    z-index: 2; /* تضمین نمایش نقطه در بالاترین لایه */
+    transition: top 0.5s ease-out, left 0.5s ease-out;
+    margin-left: -50px;
+  }
+  
+
 .line-single-page {
     height: 40%;
     width: 1px;
@@ -1743,5 +1768,12 @@ a.phone {
     .ta-i-rtl{
         text-align: center;
     }
+    .happy-customer{
+    padding-top: 0;
+    }
+    .linee{
+        font-size: 1.75rem;
+    }
+    
 
 }
